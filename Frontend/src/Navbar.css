@@ -1,0 +1,166 @@
+/* Resetting body and margins */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: #131921;
+    color: white;
+}
+
+.top-navbar {
+    height: 60px;
+    justify-content: space-between;
+}
+
+/* Logo styling */
+.navbar-logo {
+    padding: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Location section */
+.navbar-location {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.line-1 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.line-2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Search section */
+.navbar-search {
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+    margin: 0 10px;
+    margin-right: 22px;
+    height: 40px;
+}
+
+.search-dropdown {
+    padding: 0 10px;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 57px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.search-button {
+    padding: 0 14px;
+    background: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Account and Orders sections */
+.navbar-account, .navbar-orders {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+/* Cart section */
+.navbar-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: auto;
+}
+
+.search-button img {
+    width: 20px;
+    height: auto;
+}
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background-color: #f08804;
+    color: black;
+    font-size: 14px;
+    padding: 0 6px;
+    border-radius: 50%;
+}
+
+/* Bottom navbar */
+.bottom-navbar {
+    background-color: #232f3e;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    padding: 8px 12px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Hover effects */
+.navbar-location:hover,
+.navbar-account:hover,
+.navbar-orders:hover,
+.navbar-cart:hover,
+.navbar-links li:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: -1px;
+}
+
+.search-button:hover {
+    background: #f3a847;
+}
+
+.search-input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
