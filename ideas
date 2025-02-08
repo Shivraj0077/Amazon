@@ -1,0 +1,28 @@
+1. We will create product description page-> {
+  In this description page the product's description, fake ratings, underline 
+  next line product's highlighted price,
+  next line a small image with the colour of product
+  brand and product's type belongs to 
+  on right side a separate div products's price 
+  free delivery, if ordered now delivery at this day by calculating today's day + 3 days
+  below location symbol with the city user lives in 
+  quantity box
+  add to cart
+  }
+
+2. in cart page all product's will be shown and link in backend given to click and again see the above information of clicked product
+    below total sum of prices of all product's in cart
+    this information will be in a box div to the right of this box one more box
+    total items no. and total price 
+    proceed to buy
+
+3.once clicked on proceed to buy cart will immediately get emoty.
+  redirected to new page your order will come at this date and day
+  track your order option
+  every 24 hrs 1 day will be reduced and on day of delivery after 3 * 24 hrs the order is delivered message will be given 
+  order delivered and it will be automatically removed from my orders page.
+
+4. items have to classified based on category in their category pages.
+5. search functionality should be implemented for available products.
+
+6. sign in and register page same as amazon
