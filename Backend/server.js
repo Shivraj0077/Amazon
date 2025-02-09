@@ -15,6 +15,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
 
-//access key:AKIA6ODU56DZ3CBDJU7U
-//secret access key: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
-//region: eu-north-1
